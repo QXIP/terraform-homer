@@ -27,6 +27,7 @@ variable "subnet" {
 }
 variable "instanceName" {
    default ="PUT IN YOUR INSTANCE NAME"
+}
 variable "securityGroups" {
    type = list
    default = [ "sg-<PUT IN YOUR VPC SECURITY GROUP>" ]
