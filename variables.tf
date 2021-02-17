@@ -5,7 +5,10 @@ variable "secret_key" {
    default = "<PUT IN YOUR AWS SECRET KEY>"
 }
 variable "region" {
-   default = "us-east-1"
+   default = "YOUR REGION"
+}
+variable "amis" {
+   default = "YOUR AMI NAME"
 }
 variable "availabilityZone" {
    default = "us-east-1a"
